@@ -1,13 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #ffffff;
+  --primary: #0066ff;
+  --primary-light: #3b82f6;
+  --primary-dark: #1e40af;
+  --border-color: rgba(30, 64, 175, 0.3);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-border: var(--border-color);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -23,4 +31,21 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom global styling */
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-400 to-white bg-clip-text text-transparent;
+}
+
+.gradient-button {
+  @apply bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900;
+}
+
+.border-theme {
+  @apply border-blue-900/30;
+}
+
+.container-dark {
+  @apply bg-black/80 backdrop-blur-sm border border-blue-900/30 rounded-xl;
 }

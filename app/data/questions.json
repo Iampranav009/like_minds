@@ -1,62 +1,122 @@
 [
   {
     "id": 1,
-    "question": "What is the capital of France?",
-    "options": ["Berlin", "Madrid", "Paris", "Rome"],
-    "correctAnswer": "Paris"
+    "question": "Which of the following is a programming language commonly used for web development?",
+    "options": ["HTML", "CSS", "JavaScript", "All of the above"],
+    "correctAnswer": "All of the above"
   },
   {
     "id": 2,
-    "question": "Which planet is known as the Red Planet?",
-    "options": ["Earth", "Mars", "Jupiter", "Venus"],
-    "correctAnswer": "Mars"
+    "question": "What does the term \"bug\" in coding refer to?",
+    "options": ["A software error", "A computer virus", "A hardware component", "A network issue"],
+    "correctAnswer": "A software error"
   },
   {
     "id": 3,
-    "question": "What is the largest ocean on Earth?",
-    "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-    "correctAnswer": "Pacific Ocean"
+    "question": "Which of these tools is a popular version control system?",
+    "options": ["Git", "Docker", "Jenkins", "Kubernetes"],
+    "correctAnswer": "Git"
   },
   {
     "id": 4,
-    "question": "What is the chemical symbol for gold?",
-    "options": ["Au", "Ag", "Fe", "Cu"],
-    "correctAnswer": "Au"
+    "question": "What is the primary function of a compiler in programming?",
+    "options": ["Write code automatically", "Convert source code into machine code", "Debug code", "Manage project files"],
+    "correctAnswer": "Convert source code into machine code"
   },
   {
     "id": 5,
-    "question": "Who painted the Mona Lisa?",
-    "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
-    "correctAnswer": "Leonardo da Vinci"
+    "question": "What is a \"startup\"?",
+    "options": ["A new business venture", "A type of computer", "A financial report", "A social media platform"],
+    "correctAnswer": "A new business venture"
   },
   {
     "id": 6,
-    "question": "Which country is home to the Great Barrier Reef?",
-    "options": ["Brazil", "Australia", "Mexico", "Thailand"],
-    "correctAnswer": "Australia"
+    "question": "Which characteristic is commonly found in successful entrepreneurs?",
+    "options": ["Fear of failure", "Risk aversion", "Innovation and adaptability", "Avoiding challenges"],
+    "correctAnswer": "Innovation and adaptability"
   },
   {
     "id": 7,
-    "question": "What is the smallest prime number?",
-    "options": ["0", "1", "2", "3"],
-    "correctAnswer": "2"
+    "question": "Which element is essential in a comprehensive business plan?",
+    "options": ["Market analysis", "Product description", "Financial projections", "All of the above"],
+    "correctAnswer": "All of the above"
   },
   {
     "id": 8,
-    "question": "Which element has the chemical symbol 'O'?",
-    "options": ["Osmium", "Oxygen", "Oganesson", "Otassium"],
-    "correctAnswer": "Oxygen"
+    "question": "In the context of startups, what does \"pivot\" mean?",
+    "options": ["Complete shutdown", "A shift in business strategy", "Hiring new employees", "Merging with another company"],
+    "correctAnswer": "A shift in business strategy"
   },
   {
     "id": 9,
-    "question": "Who wrote 'Romeo and Juliet'?",
-    "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
-    "correctAnswer": "William Shakespeare"
+    "question": "Which quality is most important for effective leadership?",
+    "options": ["Arrogance", "Empathy", "Indecisiveness", "Isolation"],
+    "correctAnswer": "Empathy"
   },
   {
     "id": 10,
-    "question": "What is the largest organ in the human body?",
-    "options": ["Brain", "Liver", "Heart", "Skin"],
-    "correctAnswer": "Skin"
+    "question": "What is the primary role of a leader within a team?",
+    "options": ["Micromanaging every task", "Inspiring and guiding team members", "Working in isolation", "Avoiding responsibility"],
+    "correctAnswer": "Inspiring and guiding team members"
+  },
+  {
+    "id": 11,
+    "question": "Which term describes a leader who prioritizes serving the needs of their team?",
+    "options": ["Authoritarian leader", "Servant leader", "Dictator", "Independent leader"],
+    "correctAnswer": "Servant leader"
+  },
+  {
+    "id": 12,
+    "question": "What is a key component of effective team communication?",
+    "options": ["Transparency", "Secrecy", "Indifference", "Ambiguity"],
+    "correctAnswer": "Transparency"
+  },
+  {
+    "id": 13,
+    "question": "What is a hackathon?",
+    "options": ["A social gathering", "A marathon coding event", "A software update session", "A coding error"],
+    "correctAnswer": "A marathon coding event"
+  },
+  {
+    "id": 14,
+    "question": "What is typically the main goal at a hackathon?",
+    "options": ["Taking a long break", "Developing innovative solutions rapidly", "Conducting formal interviews", "Reviewing academic papers"],
+    "correctAnswer": "Developing innovative solutions rapidly"
+  },
+  {
+    "id": 15,
+    "question": "Which skill is particularly useful during a hackathon?",
+    "options": ["Time management", "Procrastination", "Inactivity", "Over-planning"],
+    "correctAnswer": "Time management"
+  },
+  {
+    "id": 16,
+    "question": "Why do participants usually join hackathons?",
+    "options": ["To network and collaborate", "To work in isolation", "To avoid coding challenges", "To memorize code snippets"],
+    "correctAnswer": "To network and collaborate"
+  },
+  {
+    "id": 17,
+    "question": "Which phrase best describes a growth mindset?",
+    "options": ["\"I can't change my abilities\"", "\"I can learn and improve with effort\"", "\"Success is fixed\"", "\"Failure defines me\""],
+    "correctAnswer": "\"I can learn and improve with effort\""
+  },
+  {
+    "id": 18,
+    "question": "What is an essential practice for maintaining a positive attitude?",
+    "options": ["Focusing on setbacks", "Embracing challenges", "Avoiding all risks", "Ignoring constructive feedback"],
+    "correctAnswer": "Embracing challenges"
+  },
+  {
+    "id": 19,
+    "question": "Which option best represents the idea of \"resilience\"?",
+    "options": ["Giving up easily", "Bouncing back from difficulties", "Avoiding challenges", "Dwelling on failures"],
+    "correctAnswer": "Bouncing back from difficulties"
+  },
+  {
+    "id": 20,
+    "question": "According to many philosophies, what is key to a fulfilling life?",
+    "options": ["Material wealth", "Continuous learning and self-improvement", "Isolation", "Complacency"],
+    "correctAnswer": "Continuous learning and self-improvement"
   }
 ] 
