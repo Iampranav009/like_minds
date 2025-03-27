@@ -203,6 +203,10 @@ export default function Globe() {
     }
     window.addEventListener("resize", handleResize)
 
+    // Properly capture the ref and renderer for cleanup
+    const currentRef = mountRef.current
+    const rendererElement = renderer.domElement
+
     const hintTimer = setTimeout(() => {
       setShowHint(false)
     }, 3000) // Hide hint after 3 seconds
@@ -211,10 +215,9 @@ export default function Globe() {
       window.removeEventListener("resize", handleResize)
       window.removeEventListener("resize", checkMobile)
       cancelAnimationFrame(animationId)
-      // Store ref value in a variable to avoid the exhaustive-deps warning
-      const mountElement = mountRef.current
-      if (mountElement) {
-        mountElement.removeChild(renderer.domElement)
+      // Use the captured ref from above instead of accessing mountRef.current in cleanup
+      if (currentRef?.contains?.(rendererElement)) {
+        currentRef.removeChild(rendererElement)
       }
       controls.dispose()
       clearTimeout(hintTimer)
