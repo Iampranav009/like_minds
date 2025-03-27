@@ -10,10 +10,8 @@ export default function QuizPage() {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(30);
-  const [answers, setAnswers] = useState<string[]>([]);
   const [quizQuestions, setQuizQuestions] = useState<typeof questions>([]);
   const [isTimeExpired, setIsTimeExpired] = useState(false);
-  const [hasFailed, setHasFailed] = useState(false);
   const [showQuizIntro, setShowQuizIntro] = useState(true);
   const router = useRouter();
 
@@ -57,11 +55,8 @@ export default function QuizPage() {
     setSelectedAnswer(answer);
     
     // Store user's answer in the answers array
-    setAnswers(prevAnswers => {
-      const newAnswers = [...prevAnswers];
-      newAnswers[currentQuestionIndex] = answer;
-      return newAnswers;
-    });
+    const newAnswers = [];
+    newAnswers[currentQuestionIndex] = answer;
 
     // Update score if answer is correct
     if (answer === currentQuestion.correctAnswer) {
@@ -88,7 +83,6 @@ export default function QuizPage() {
       } else {
         // User failed the quiz - permanently block them
         localStorage.setItem('quizFailed', 'true');
-        setHasFailed(true);
         // Redirect to the home page with failed query param
         router.push('/?failed=true');
       }
@@ -253,7 +247,7 @@ export default function QuizPage() {
                       <title>Chevron icon</title>
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
-                    <span>If you don't answer in time, you will be redirected to the home page.</span>
+                    <span>If you don&apos;t answer in time, you will be redirected to the home page.</span>
                   </li>
                   <li className="flex items-start">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-indigo-500 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">

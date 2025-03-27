@@ -25,9 +25,6 @@ function ResultContent() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   
-  // WhatsApp group link (replace with your actual WhatsApp group link)
-  const whatsappLink = "https://chat.whatsapp.com/your-group-link";
-
   useEffect(() => {
     // Prevent users from directly accessing this page without a score
     if (!searchParams.has('score')) {

@@ -211,7 +211,11 @@ export default function Globe() {
       window.removeEventListener("resize", handleResize)
       window.removeEventListener("resize", checkMobile)
       cancelAnimationFrame(animationId)
-      mountRef.current?.removeChild(renderer.domElement)
+      // Store ref value in a variable to avoid the exhaustive-deps warning
+      const mountElement = mountRef.current
+      if (mountElement) {
+        mountElement.removeChild(renderer.domElement)
+      }
       controls.dispose()
       clearTimeout(hintTimer)
     }

@@ -52,7 +52,7 @@ export default function TimeoutPage() {
           
           <h1 className="text-2xl font-bold mb-4 text-white">Time's Up!</h1>
           <p className="text-lg text-gray-300 mb-8">
-            Better luck next time! You didn't answer the question in time.
+            Better luck next time! You didn&apos;t answer the question in time.
           </p>
           
           <Link href="/">

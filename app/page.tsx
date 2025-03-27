@@ -2,7 +2,6 @@
 
 import { Inter } from "next/font/google";
 import Link from "next/link";
-import Image from "next/image";
 import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Globe from "../components/Globe";

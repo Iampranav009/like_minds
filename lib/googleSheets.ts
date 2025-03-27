@@ -1,5 +1,4 @@
 import { google } from 'googleapis';
-import type { OAuth2Client } from 'google-auth-library';
 
 // Google Sheets API configuration from environment variables
 const SPREADSHEET_ID = '1HLHvAWu_eRERbSkq30UClmK5Jr2TX3XPriurzy9mPlo';
