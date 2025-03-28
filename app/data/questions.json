@@ -118,5 +118,185 @@
     "question": "According to many philosophies, what is key to a fulfilling life?",
     "options": ["Material wealth", "Continuous learning and self-improvement", "Isolation", "Complacency"],
     "correctAnswer": "Continuous learning and self-improvement"
+  },
+  {
+    "id": 21,
+    "question": "Which company is known for its electric vehicles and is led by Elon Musk?",
+    "options": ["Tesla", "SpaceX", "Neuralink", "The Boring Company"],
+    "correctAnswer": "Tesla"
+  },
+  {
+    "id": 22,
+    "question": "Which company, founded by Elon Musk, focuses on space exploration and aims to enable Mars colonization?",
+    "options": ["SpaceX", "Tesla", "OpenAI", "Twitter"],
+    "correctAnswer": "SpaceX"
+  },
+  {
+    "id": 23,
+    "question": "Which Elon Musk company is dedicated to developing advanced brain-computer interfaces?",
+    "options": ["Neuralink", "Tesla", "SpaceX", "OpenAI"],
+    "correctAnswer": "Neuralink"
+  },
+  {
+    "id": 24,
+    "question": "What is one of the innovative projects launched by Elon Musk's The Boring Company?",
+    "options": ["Tunneling systems for transportation", "Electric cars", "Brain implants", "Social media platform"],
+    "correctAnswer": "Tunneling systems for transportation"
+  },
+  {
+    "id": 25,
+    "question": "What does AGI stand for?",
+    "options": ["Artificial General Intelligence", "Automated Guided Innovation", "Advanced Graphical Interface", "Artificial Geometric Integration"],
+    "correctAnswer": "Artificial General Intelligence"
+  },
+  {
+    "id": 26,
+    "question": "Which of the following best defines AGI?",
+    "options": ["AI that performs specific tasks", "AI that can perform any intellectual task that a human can", "AI that mimics animal behavior", "AI used for graphic design"],
+    "correctAnswer": "AI that can perform any intellectual task that a human can"
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is considered a leading open-source AI model for local deployment in image generation?",
+    "options": ["Stable Diffusion", "GPT-3", "BERT", "ResNet"],
+    "correctAnswer": "Stable Diffusion"
+  },
+  {
+    "id": 28,
+    "question": "Which technology is widely regarded as the backbone for modern machine learning and AI?",
+    "options": ["Neural Networks", "Blockchain", "Quantum Computing", "Virtual Reality"],
+    "correctAnswer": "Neural Networks"
+  },
+  {
+    "id": 29,
+    "question": "What is image generation in the context of AI?",
+    "options": ["Creating images through algorithms", "Editing existing photos manually", "Printing images", "Designing hardware components"],
+    "correctAnswer": "Creating images through algorithms"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is a common use case for AI in image generation?",
+    "options": ["Creating digital art", "Manual photo editing", "Hardware manufacturing", "Physical painting"],
+    "correctAnswer": "Creating digital art"
+  },
+  {
+    "id": 31,
+    "question": "What is one of the best use cases of AI in natural language processing?",
+    "options": ["Automated translation", "Manual transcription", "Paper filing", "Handwriting analysis"],
+    "correctAnswer": "Automated translation"
+  },
+  {
+    "id": 32,
+    "question": "Which industry has greatly benefited from AI-powered predictive analytics?",
+    "options": ["Healthcare", "Agriculture", "Fashion design", "Music streaming"],
+    "correctAnswer": "Healthcare"
+  },
+  {
+    "id": 33,
+    "question": "What is Arduino?",
+    "options": ["An open-source electronics platform", "A new programming language", "A mobile operating system", "A web development framework"],
+    "correctAnswer": "An open-source electronics platform"
+  },
+  {
+    "id": 34,
+    "question": "What is the primary use of Arduino boards?",
+    "options": ["Prototyping interactive electronic projects", "Running large-scale web servers", "Developing complex AI models", "Managing cloud infrastructures"],
+    "correctAnswer": "Prototyping interactive electronic projects"
+  },
+  {
+    "id": 35,
+    "question": "Which programming language is commonly used for Arduino development?",
+    "options": ["C/C++", "Python", "Java", "Ruby"],
+    "correctAnswer": "C/C++"
+  },
+  {
+    "id": 36,
+    "question": "Which feature makes Arduino popular among beginners and hobbyists?",
+    "options": ["Its user-friendly and open-source nature", "High cost and exclusivity", "Complexity and proprietary software", "Limited documentation"],
+    "correctAnswer": "Its user-friendly and open-source nature"
+  },
+  {
+    "id": 37,
+    "question": "Which of the following best describes open-source software?",
+    "options": ["Software with publicly accessible source code", "Software that is only available for purchase", "Proprietary software", "Software with no documentation"],
+    "correctAnswer": "Software with publicly accessible source code"
+  },
+  {
+    "id": 38,
+    "question": "Which of these is an advantage of using cloud computing for startups?",
+    "options": ["Scalability and cost efficiency", "High initial capital expenditure", "Limited access to data", "Lack of security"],
+    "correctAnswer": "Scalability and cost efficiency"
+  },
+  {
+    "id": 39,
+    "question": "What is a common benefit of participating in hackathons?",
+    "options": ["Networking and rapid skill development", "Prolonged vacation", "Isolated work environment", "Guaranteed job offers"],
+    "correctAnswer": "Networking and rapid skill development"
+  },
+  {
+    "id": 40,
+    "question": "Which technology is often considered disruptive in modern industries?",
+    "options": ["Artificial Intelligence", "Traditional manufacturing", "Manual typewriters", "Analog televisions"],
+    "correctAnswer": "Artificial Intelligence"
+  },
+  {
+    "id": 41,
+    "question": "Which of the following is a key factor in building a successful startup?",
+    "options": ["Continuous innovation", "Rigid adherence to outdated methods", "Avoiding market research", "Overlooking customer feedback"],
+    "correctAnswer": "Continuous innovation"
+  },
+  {
+    "id": 42,
+    "question": "Which leadership style is characterized by empowering team members and encouraging collaborative decision-making?",
+    "options": ["Transformational leadership", "Autocratic leadership", "Laissez-faire leadership", "Micromanagement"],
+    "correctAnswer": "Transformational leadership"
+  },
+  {
+    "id": 43,
+    "question": "In entrepreneurship, what is the term for a new business idea that disrupts an existing market?",
+    "options": ["Innovation", "Disruption", "Stabilization", "Saturation"],
+    "correctAnswer": "Disruption"
+  },
+  {
+    "id": 44,
+    "question": "What is the primary function of a compiler in programming?",
+    "options": ["Write code automatically", "Convert source code into machine code", "Debug code", "Manage project files"],
+    "correctAnswer": "Convert source code into machine code"
+  },
+  {
+    "id": 45,
+    "question": "Which of the following is a widely used integrated development environment (IDE) for coding?",
+    "options": ["Visual Studio Code", "Microsoft Word", "Adobe Photoshop", "Slack"],
+    "correctAnswer": "Visual Studio Code"
+  },
+  {
+    "id": 46,
+    "question": "Which paradigm of programming focuses on objects and their interactions?",
+    "options": ["Object-Oriented Programming", "Procedural Programming", "Functional Programming", "Logic Programming"],
+    "correctAnswer": "Object-Oriented Programming"
+  },
+  {
+    "id": 47,
+    "question": "Which philosophy emphasizes self-improvement and learning from failures?",
+    "options": ["Growth mindset", "Fixed mindset", "Fatalism", "Pessimism"],
+    "correctAnswer": "Growth mindset"
+  },
+  {
+    "id": 48,
+    "question": "Which practice is recommended for maintaining mental clarity and productivity?",
+    "options": ["Regular mindfulness meditation", "Ignoring mental health", "Overworking without breaks", "Avoiding social interactions"],
+    "correctAnswer": "Regular mindfulness meditation"
+  },
+  {
+    "id": 49,
+    "question": "According to stoic philosophy, what is one key to a fulfilling life?",
+    "options": ["Focusing on what you can control", "Obsessing over external events", "Avoiding all challenges", "Seeking constant pleasure"],
+    "correctAnswer": "Focusing on what you can control"
+  },
+  {
+    "id": 50,
+    "question": "Which approach is considered effective for problem-solving in both personal and professional life?",
+    "options": ["Analytical and creative thinking", "Rigidly following tradition", "Ignoring feedback", "Relying solely on intuition"],
+    "correctAnswer": "Analytical and creative thinking"
   }
 ] 
