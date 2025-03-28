@@ -47,7 +47,7 @@ export default function TryAgainPage() {
               Quiz Not Passed
             </h1>
             <p className="text-gray-400 max-w-md mx-auto">
-              Don't worry! You can try again anytime. Review the topics and come back when you're ready.
+              Don&apos;t worry! You can try again anytime. Review the topics and come back when you&apos;re ready.
             </p>
           </div>
           
