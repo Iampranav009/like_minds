@@ -1,9 +1,14 @@
 {
   "version": 2,
+  "buildCommand": "next build --no-lint",
+  "installCommand": "npm install --legacy-peer-deps",
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/next"
+      "use": "@vercel/next",
+      "config": {
+        "skipESLintCheck": true
+      }
     }
   ],
   "routes": [

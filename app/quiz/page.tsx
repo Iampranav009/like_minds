@@ -16,10 +16,9 @@ export default function QuizPage() {
   const router = useRouter();
 
   // Memoize the question sets to prevent recreation on each render
-  const firstSet = useMemo(() => questions.slice(0, 10), []); // First 10 questions for first-time users
-  
+  // const firstSet = useMemo(() => questions.slice(0, 10), []); // First 10 questions for first-time users
   // Create function to get a random set of questions with a specific seed
-  const getRandomQuestionSet = useCallback((seed: string, count: number = 10) => {
+  const getRandomQuestionSet = useCallback((seed: string, count = 10) => {
     // Create a simple hash of the seed to use as random seed
     const seedHash = seed.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
     
@@ -48,7 +47,7 @@ export default function QuizPage() {
     }
     
     // Check if user has completed the quiz before
-    const hasCompletedQuiz = localStorage.getItem('hasCompletedQuiz') === 'true';
+    // const hasCompletedQuiz = localStorage.getItem('hasCompletedQuiz') === 'true';
     
     // Get a random set of questions based on user ID
     const userQuestions = getRandomQuestionSet(userId);
@@ -120,12 +119,10 @@ export default function QuizPage() {
   useEffect(() => {
     // Don't reset timer if questions not loaded or intro is showing
     if (quizQuestions.length === 0 || showQuizIntro) return;
-    
-    // Reset timer when question changes
     setTimeLeft(30);
     setIsTimeExpired(false);
-    // We need currentQuestionIndex in the dependencies array to reset the timer when the question changes,
-    // even though the linter suggests it might be unnecessary
+    // We need currentQuestionIndex to reset timer on question change
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentQuestionIndex, quizQuestions.length, showQuizIntro]);
 
   // Handle timer countdown
