@@ -5,7 +5,7 @@ export async function POST(req: Request) {
   try {
     // Parse form data
     const data = await req.json();
-    const { name, number, gender, branch, interests } = data;
+    const { name, number, gender, branch, interests, score } = data;
 
     // Validate required fields
     if (!name || !number || !gender || !branch || !interests) {
@@ -19,7 +19,14 @@ export async function POST(req: Request) {
     await initializeSheet();
 
     // Append data to the sheet
-    const success = await appendToSheet({ name, number, gender, branch, interests });
+    const success = await appendToSheet({ 
+      name, 
+      number, 
+      gender, 
+      branch, 
+      interests,
+      score: score || '' // Include score if available
+    });
 
     if (success) {
       return NextResponse.json(
