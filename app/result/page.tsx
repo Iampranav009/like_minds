@@ -20,7 +20,8 @@ function ResultContent() {
     number: '',
     gender: '',
     branch: '',
-    interests: ''
+    interests: '',
+    score: searchParams.get('score') || ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
